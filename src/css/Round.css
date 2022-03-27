@@ -5,16 +5,16 @@ body{
 }
 
 .note-container {
+  display:flex; 
+  width:fit-content;
+  height:fit-content;
   position:fixed;
   bottom:0px;
-  display:flex; 
-  width:400px;
-  height:100px;
 }
 
 .accuracy-container{
-  width:150px;
-  height:150px;
+  width:fit-content;
+  height:fit-content;
 }
 
 .note {
@@ -26,22 +26,22 @@ body{
   transition:0.2s;
 }
 
-.note -l{
+.note -Track1{
   background-color:#800080;
   border-color:#8b008b;
 }
 
-.note -u{
+.note -Track2{
   background-color:#00FF00;
   border-color:#006400;
 }
 
-.note -d{
+.note -Track3{
   background-color:#00FFFF;
   border-color:#0000FF;
 }
 
-.note -r{
+.note -Track4{
   background-color:#FF0000;
   border-color:#8B0000;
 }
